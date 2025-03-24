@@ -1,0 +1,83 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: url('img/misurina-sunset.jpg') no-repeat center center/cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.conteiner {
+    background-color: #554a5965;
+    box-shadow: 5px 5px 16px #211d22;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+}
+
+.input-box {
+    width: 500px;
+    height: 50px;
+}
+
+.input-box input {
+    
+    width: 70%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    text-indent: 20px;
+}
+
+.input-box input::placeholder {
+    padding: 1px;
+    color: rgba(240, 248, 255, 0.623);
+    font-size: 18px;
+}
+
+.remember {
+    color: rgb(202, 200, 200);
+    transform: translate(5%, 200%);
+    display: flex;
+    
+}
+
+.remember a {
+    color: #ffffff;
+    transform: translate(130%,-8%);
+    text-decoration: none;
+}
+
+.button {
+    background-color: #ffffff;
+    transform: translate(0%,120%);
+    width: 390px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #3d363f83;
+    font-size: 22px;
+}
+
+.dont {
+    transform: translate(-1%,450%);
+    color: #ffffff;
+}
+
+.dont a {
+    color: #ffffff;
+    text-decoration: none;
+}
