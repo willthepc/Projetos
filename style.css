@@ -65,11 +65,16 @@ body {
 .button {
     background-color: #ffffff;
     transform: translate(0%,120%);
-    width: 390px;
+    width: 250px;
     height: 60px;
     border-radius: 30px;
     box-shadow: 5px 5px 10px #3d363f83;
     font-size: 22px;
+    border: 2px solid #000000;
+}
+
+button:active {
+    background-color: rgb(177, 109, 70);
 }
 
 .dont {
