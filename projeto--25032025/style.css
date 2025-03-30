@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    
+    
+}
+
+body {
+    background-image: linear-gradient(to left, #6524BF,#826AD9,#2E2473);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90%;
+}
+
+.conteiner {
+    background-color: #f5f2f2;
+    box-shadow: 5px 10px 40px #3d1674cb;
+    margin: auto;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+.title {
+    font-size: 18px;
+    color: rgb(139, 142, 145);
+    transform: translate(0%,40%);
+}
+
+.input-box {
+    width: 500px;
+    height: 200px;
+}
+
+.input-box input {
+    transform: translate(-8%,60%);
+    width: 60%;
+    height:7vh;
+    background: transparent;
+    margin: 21px;
+    outline: none;
+    border: 2px solid #858392ab;
+    border-radius: 20px;
+    text-indent: 45px;
+    font-style: italic;
+}
+
+.input-box input::placeholder {
+    font-size: 20px;
+    padding: 16px;
+}
+
+.input-box i {
+    transform: translate(-1350%,165%);
+    color: #000000;
+    font-size: 25px;
+}
+
+.checkbox {
+    transform: translate(-33%,310%);
+    font-size: 17px;
+}
+
+.forgot {
+    transform: translate(27%,200%);
+}
+
+.checkbox label {
+    font-weight: 10;
+}
+
+.forgot a {
+    font-weight: 10;
+    font-size: 18px;
+    color: hsl(46, 93%, 52%);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 7vh;
+    border-radius: 20px;
+    transform: translate(70%,200%);
+    background-color: hsl(46, 93%, 52%); 
+    color: rgb(255, 255, 255);
+    border-color: rgba(240, 248, 255, 0);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #conteiner {
+            background-image: url(/imgcap19/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url(/imgcap19/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*pode usar o top e left*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%,-50%);
+
+            /* pra centralizar voce vai usar:
+            - position: absolute;
+            - top: 50%;
+            - left: 50%;
+            - transform: translate(-50%,-50%);
+
+            (usar widht e height em px para aparecer algo)
+            */
+        } 
+
+
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+
+    <div></div>
+</body>
+</html>
