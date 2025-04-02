@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(./imagens/fundo-madeira.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+.telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background-color: lightblue;
+    background: url(./imagens/frame-iphone.png) no-repeat;
+
+}
+
+.home {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
