@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:"Lucida Grande", 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header {
+    background-color: rgb(85, 57, 48);
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 2em;
+    color: white;
+}
+
+h1 span {
+    color: rgb(255, 115, 0);
+}
+
+header a {
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+header a:hover {
+    background-color: white;
+    padding: 15px;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+/*Conteudo Principal - ESQUERDA*/
+
+main {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.caixa-left {
+    width: 710px;
+    float: left;
+    margin-top: -90px;
+}
+
+/* .banner-1 {
+    float: left;
+} */
+
+/* .banner-1 img{
+    width: 1100px;
+    margin-top: -90px;
+} */
+
+.video {
+    float: left;
+    color: green;
+    margin-left: 25px;
+}
+
+.mapa {
+    float: left;
+    color: green;
+    margin-left: 30px;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.video iframe{
+    width: 310px;
+    padding-top: 10px;
+    
+}
+
+.mapa iframe {
+    width: 310px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.exposicoes {
+    width: 310px;
+    margin: 15px 0 0 37px;
+    float: left;
+}
+
+.exposicoes ul {
+    font-size: 12px;
+}
+
+.exposicoes a:hover {
+    color: #227115;
+}
+
+/* .exposicoes ul{
+    margin-left: 40px;
+    list-style-type: circle;
+    color: rgb(146, 67, 2);
+    font-weight: 600;
+} */
+
+.historia {
+    width: 310px;
+    float: left;
+    margin: 15px 0 0 37px;
+}
+
+.historia p {
+    font-size: 12px;
+}
+
+/*Conteudo Principal - DIREITA*/
+
+.caixa-right {
+    width:350px;
+    float: right;
+    background-color: #ebe7dd;
+}
+
+.banner-2 img{
+    margin-top: -90px;
+}
+
+.caixa-visit {
+    background-color: rgb(236, 221, 170);
+    padding: 10px 27px 27px 27px;
+}
+
+.caixa-visit h4 {
+    color: rgb(146, 67, 2);
+    padding-bottom: 15px;
+    font-size: 1em;
+}
+
+.caixa-visit p {
+    font-size: 0.7em;
+    padding-bottom: 10px;
+    text-indent: 10px;
+}
+
+.caixa-visit input[type='number'] {
+    width: 30px;
+    height: 20px;
+}
+
+.caixa-visit input[type='date'] {
+    height: 20px;
+}
+
+.caixa-visit input[type='submit'] {
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    line-height: 20px;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(165, 149, 98);
+    border: none;
+}
+
+.caixa-visit input[type='submit']:hover {
+    background-color: rgb(126, 114, 74);
+}
+
+.caixa-fotos {
+    margin: 15px 0 0 0;
+    padding: 0 27px 0 27px;
+    font-size: 1em;
+    color: rgb(146, 67, 2);
+}
+
+.caixa-fotos a {
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+.caixa-fotos img {
+    margin-left: 2px;
+    margin-top: 3px;
+    width: 93px;
+    height: 93px;
+    /*margin: 35px;
+    border: 2px solid rgb(255, 194, 153);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(107, 82, 44, 0.603); */
+}
+
+/*Rodapé*/
+
+footer {
+    float: inline-end;
+    clear: both;
+    text-align: center;
+    width: 98%;
+    margin: 20px;
+    border-top: 1px solid rgb(179, 157, 116);
+    padding-top: 20px;
+}
+
+footer nav {
+    margin-bottom: 15px;
+}
+
+footer nav a{
+    color: rgb(180, 108, 84);
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer span {
+    color: rgb(180, 108, 84);
+    font-weight: bolder;
+}
